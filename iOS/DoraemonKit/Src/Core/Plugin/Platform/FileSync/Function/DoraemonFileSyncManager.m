@@ -11,10 +11,10 @@
 #import <GCDWebServer/GCDWebServerDataResponse.h>
 #import <GCDWebServer/GCDWebServerMultiPartFormRequest.h>
 #import <GCDWebServer/GCDWebServerFileResponse.h>
-#import <FMDB/FMDB.h>
+
 #import "DoraemonAppInfoUtil.h"
 
-
+@import FMDB;
 #define DK_SERVER_PORT 9002
 
 @interface DoraemonFileSyncManager()
